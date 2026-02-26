@@ -28,8 +28,5 @@ uvicorn==0.29.0
 crewai==0.130.0
 crewai-tools==0.47.1
 python-dotenv==1.0.1
-
-# # Optional Bonus
-# celery==5.3.6
-# redis==5.0.4
-# sqlalchemy==2.0.30
+langchain-community>=0.0.38
+pypdf>=4.2.0
