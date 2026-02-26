@@ -1,0 +1,35 @@
+# click>=8.1.8
+# # Keep crewai at version 0.130.0
+# # Other package versions are flexible and can be changed
+# # Only change crewai version if there are critical dependency conflicts that cannot be resolved by other means
+# crewai==0.130.0 
+# crewai-tools==0.47.1
+# fastapi==0.110.3
+# # langchain-core==0.1.52
+# # langsmith==0.1.67
+# numpy==1.26.4
+# # oauthlib==3.2.2
+# onnxruntime==1.22.0
+# # openai (let pip resolve the best version)
+# pandas==2.2.2
+# # pillow==10.3.0
+# # pip==24.0
+# # protobuf==4.25.3
+# # pydantic_core==2.8.0
+# python-dotenv==1.0.1
+
+# # Optional Bonus
+# celery==5.3.6
+# redis==5.0.4
+# sqlalchemy==2.0.30
+
+fastapi==0.110.3
+uvicorn==0.29.0
+crewai==0.130.0
+crewai-tools==0.47.1
+python-dotenv==1.0.1
+
+# # Optional Bonus
+# celery==5.3.6
+# redis==5.0.4
+# sqlalchemy==2.0.30
