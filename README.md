@@ -80,8 +80,26 @@ Client → FastAPI → Redis Queue → Celery Worker → Redis Result → Client
 Polling
 
 ------------------------------------------------------------------------
+## 4️⃣ Redis Connection Issues
 
-## 4️⃣ Error Handling Improvements
+### ❌ Problem
+
+Celery could not connect to Redis after restart.
+
+### 🔎 Root Cause
+
+Redis container was not running.
+
+### ✅ Fix
+
+Used Docker to run Redis:
+
+``` bash
+docker run -d -p 6379:6379 --name redis-server redis
+```
+------------------------------------------------------------------------
+
+## 5️⃣  Error Handling Improvements
 
 -   Added structured error handling for OpenAI API failures\
 -   Prevented server crashes due to quota errors\
