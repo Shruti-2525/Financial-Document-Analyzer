@@ -1,4 +1,4 @@
-# 📊 AI Financial Document Analyzer -- Debug Challenge Submission
+# 📊 AI Financial Document Analyzer
 
 # 🚀 Project Overview
 
