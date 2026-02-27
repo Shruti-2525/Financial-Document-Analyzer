@@ -175,6 +175,7 @@ docker ps
 ``` bash
 setx OPENAI_API_KEY "your_api_key_here"
 ```
+Or directly copy and paste the api key url in .env
 
 Restart terminal after setting.
 
