@@ -22,7 +22,7 @@ This submission includes: - Fully working backend\
 
 ------------------------------------------------------------------------
 
-# 🐛 Bugs Identified & Fixes
+# Bugs Identified & Fixes
 
 ## 1️⃣ Inefficient Prompts
 
