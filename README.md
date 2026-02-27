@@ -204,10 +204,26 @@ http://127.0.0.1:8000/docs
 
 # 📘 API Documentation
 
+Base URL:
+
+http://127.0.0.1:8000
+
+Interactive Swagger UI available at:
+
+http://127.0.0.1:8000/docs
+
+------------------------------------------------------------------------
+
 ## POST /analyze
+1. Analyze Financial Document
+   
+```Endpoint
+POST /analyze
+Description
 
-Uploads financial document and starts background analysis.
-
+Uploads a financial PDF document and starts asynchronous analysis using CrewAI agents.
+The request immediately returns a task_id for result tracking.
+```
 Response:
 
 ``` json
