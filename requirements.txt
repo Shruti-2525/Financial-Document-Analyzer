@@ -18,9 +18,7 @@
 # # pydantic_core==2.8.0
 # python-dotenv==1.0.1
 
-# # Optional Bonus
-# celery==5.3.6
-# redis==5.0.4
+
 # sqlalchemy==2.0.30
 
 fastapi==0.110.3
@@ -30,3 +28,8 @@ crewai-tools==0.47.1
 python-dotenv==1.0.1
 langchain-community>=0.0.38
 pypdf>=4.2.0
+
+# Optional Bonus
+celery==5.3.6
+redis==5.0.4
+
