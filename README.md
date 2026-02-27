@@ -233,6 +233,7 @@ Response:
   "message": "Analysis started in background"
 }
 ```
+<img width="541" height="213" alt="image" src="https://github.com/user-attachments/assets/892a9cbd-8d1a-4009-96ec-9f90c32ca520" />
 
 ------------------------------------------------------------------------
 
