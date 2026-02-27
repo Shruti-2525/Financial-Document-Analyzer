@@ -239,7 +239,20 @@ Response:
 
 ## GET /result/{task_id}
 
-Returns analysis result.
+Endpoint
+```GET /result/{task_id}
+```Description
+
+Fetches the status or result of a previously submitted analysis task.
+```
+<img width="571" height="123" alt="image" src="https://github.com/user-attachments/assets/c581ceac-0aea-4670-8ebd-8f3a56fbd63e" />
+
+Processing Response
+```{
+  "status": "processing",
+  "message": "Task is still running"
+}
+```
 
 Success:
 
